@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+  width: 100%;
+  color: var(--white);
+  background-color: var(--black);
+}
+
+.header a {
+  font-weight: 500;
+  color: var(--white);
+  text-decoration: none;
+}
+
+.header a:hover {
+  color: var(--blue);
+  text-decoration: underline;
+  transition: 0.2s;
+}
